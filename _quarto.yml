@@ -1,27 +1,26 @@
 project:
   type: website
   output-dir: docs
-  
 website:
-  title: "MY WEB SITE"
+  title: "Final Project By Cy Hwang"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
+      - index.qmd
       - projects.qmd
-    tools:
-      - icon: twitter
-        href: https://twitter.com/
-      - icon: github
-        href: https://github.com/YOURUSERNAME/YOURREPO
-  page-footer:
-    right: "Built with [Quarto](https://quarto.org/)"
-    left: "&copy; Copyright 2023, YOUR NAME"
+      - explo.qmd
 
 format:
   html:
-    theme: cerulean
+    theme: sandstone
+    mainfont: arial
+    fontsize: 1.5rem
+    fontcolor: "#0013d5"
+    linkcolor: '#ff33f0'
+    monofont: courier new
+    css: styles.css
     toc: true
+    code-fold: true
+    echo: false
 
-editor: source
+editor: visual
 
