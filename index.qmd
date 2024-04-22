@@ -1,19 +1,13 @@
 ---
-title: "About Me"
+title: "Final Project"
+image: 'penguin.jpg'
 about:
-  id: me
-  template: broadside
-  image: img/profile.png
+  template: jolla
+  image-shape: round
+  image-width: 15em
+  links: 
+    - text: Visual of me working on this project
+      href: https://youtu.be/6Vf3zRLlUR8?si=e5q0Yto28ZT_ZI0S
 ---
 
-:::{#me}
-
-## Goals
-
-## Education
-
-## Experience
-
-:::
-
-Thanks for checking out my web site!
+This is Chapter 1 through Chapter 6 of *DevOps for Data Science* by Alex Gold.
